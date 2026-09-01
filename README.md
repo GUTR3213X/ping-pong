@@ -8,12 +8,12 @@ make
 ```
 
 ## Windows:
-```sh
-make
+```cmd
+mingw32-make
 ```
 
 ## MacOS:
-```sh
+```zsh
 make
 ```
 
@@ -25,12 +25,12 @@ python main.py
 ```
 
 ## Windows
-```sh
+```cmd
 python main.py
 ```
 
 ## MacOS
-```sh
+```zsh
 python main.py
 ```
 
