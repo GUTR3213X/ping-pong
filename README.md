@@ -7,7 +7,7 @@ You can probably build it with:
 make
 ```
 
-## Windows 10 (Windows 11 requer instalação manual do comando `make`):
+## Windows 10 (Windows 11 requires manual installation of `make`):
 ```cmd
 mingw32-make
 ```
