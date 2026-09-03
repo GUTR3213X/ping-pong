@@ -2,20 +2,16 @@
 
 ifeq ($(OS),Windows_NT)
     VENV_PYTHON := .venv/Scripts/python.exe
-    
-    PYTHONVENV_PIP := .venv/Scripts/pip.exe := python
-    SHELL := cmd.exe
-    .SHELLFLAGS := /C
+    VENV_PIP := .venv/Scripts/pip.exe
 else
     VENV_PYTHON := .venv/bin/python
     VENV_PIP := .venv/bin/pip
-    PYTHON := python3
 endif
 
 all: venv dependencies cython
 
 venv:
-	$(PYTHON) -m venv .venv
+	python3 -m venv .venv
 
 dependencies:
 	$(VENV_PIP) install -r requirements.txt
