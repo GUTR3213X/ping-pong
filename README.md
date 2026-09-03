@@ -1,13 +1,13 @@
 Just a Ping-pong game.
 
-Build it using:
+You can probably build it with:
 
 ## Linux:
 ```sh
 make
 ```
 
-## Windows:
+## Windows 10 (Windows 11 requer instalação manual do comando `make`):
 ```cmd
 mingw32-make
 ```
@@ -34,4 +34,4 @@ python main.py
 python main.py
 ```
 
-(maybe you can close it with "x")
+(you can close it with "x")
